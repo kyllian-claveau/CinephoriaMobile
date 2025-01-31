@@ -46,7 +46,7 @@ class ReservationDetailScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 20),
                     Image.network(
-                      'https://soignemoiproject.online/${reservation['url']}',
+                      'https://cinephoria.ovh/${reservation['url']}',
                       height: 250,
                       fit: BoxFit.contain,
                     ),

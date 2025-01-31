@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ReservationAPI {
-  static const String baseUrl = 'https://soignemoiproject.online/api/user';
+  static const String baseUrl = 'https://cinephoria.ovh/api/user';
 
   static Future<List<dynamic>> fetchReservations() async {
     SharedPreferences localStorage = await SharedPreferences.getInstance();
